@@ -24,8 +24,8 @@ app.use(function (req, res, next) {
 });
 app.use((req, res, next) => __awaiter(this, void 0, void 0, function* () {
     try {
-        var service = yield new dbservice();
-        req.connection = yield service.connectdb();
+        // var service = await new dbservice();
+        // req.connection =await service.connectdb();
         // req.connection =myconn1;
         var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
         console.log("called API is: " + fullUrl);
@@ -42,7 +42,7 @@ app.get('*', (req, res, next) => {
     // console.log("We couldn't find anything you are looking for")
     res.send("We couldn't find anything you are looking for");
 });
-app.listen(4567, () => {
+app.listen(9000, () => {
     console.log("Server Active At 8000");
 });
 //# sourceMappingURL=controller.js.map

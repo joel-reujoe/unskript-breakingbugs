@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "759674572234",
+    "firebase_url": "https://unskript-d89f8.firebaseio.com",
+    "project_id": "unskript-d89f8",
+    "storage_bucket": "unskript-d89f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759674572234:android:878e3a9d7131acdb",
+        "android_client_info": {
+          "package_name": "com.example.munde.unskript"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759674572234-o3b1l8sm500ph3qdb2v9lb6mqsc4fhpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyN3GZDqEADY2E0dN6hzlorQaGEl6xetA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

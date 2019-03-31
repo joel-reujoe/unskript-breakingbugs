@@ -1,5 +1,8 @@
 var MasterFunctions=require('../dependencies/masterfunctions')
-
+var fs=require('fs')
+const https = require('https');
+const request = require('request');
+const gcs = require('@google-cloud/storage');
 
 class model_project{
     public connection;
@@ -18,10 +21,7 @@ class model_project{
 
     public getUrl=async(req,res,next,url)=>{
         return new Promise(async(resolve,reject)=>{
-            console.log(url)
-            var data={}
-            data=MasterFunctions.formatResponse(url,"true","Got url");
-            resolve(data)
+            resolve({data:"joel",status:"true",message:"got url"})
         })
     }
 }

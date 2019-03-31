@@ -8,11 +8,11 @@ exports.environment = {
     // serviceaccountkeyDriver:require(`./foodiloo-driver-firebase-adminsdk.json`),
     // serviceaccountkeyRestaurant:require(`./foodiloo-restaurant-firebase-adminsdk.json`),
     firebaseConfig: {
-        apiKey: "AIzaSyB0ga6ikjDvGADhhd80r2Xeiaep3K22H-M",
+        apiKey: "AIzaSyDSF6e5vYkMSUqZQE4mACuILCY_-gA_6bg",
         authDomain: "smarthealthcare-160f0.firebaseapp.com",
         databaseURL: "https://istats-dev.firebaseio.com",
-        projectId: "smarthealthcare-160f0",
-        storageBucket: "smarthealthcare-160f0.appspot.com",
+        projectId: "unskript-d89f8",
+        storageBucket: "unskript-d89f8.appspot.com",
         messagingSenderId: "488465131798"
     }
 };
@@ -29,10 +29,10 @@ exports.DBUsServer = {
     database: "beproject"
 };
 exports.AMQPServer = {
-    host: "dinosaur.rmq.cloudamqp.com",
-    user: "ddqilcod",
-    password: "VjIbCQIPbY7oMV1DQzrUkrIiuvaQj1BI",
-    url: "amqp://ddqilcod:VjIbCQIPbY7oMV1DQzrUkrIiuvaQj1BI@dinosaur.rmq.cloudamqp.com/ddqilcod"
+    host: "spider.rmq.cloudamqp.com",
+    user: "rvalxhgd",
+    password: "aPjK9uqKN6Ib182jHd0uAovEWGB59o2x",
+    url: "amqp://rvalxhgd:aPjK9uqKN6Ib182jHd0uAovEWGB59o2x@spider.rmq.cloudamqp.com/rvalxhgd"
 };
 exports.ElasticSearchServer = {
     host: 'https://site:6e1047462052ea699d24e21983a18796@gloin-eu-west-1.searchly.com'

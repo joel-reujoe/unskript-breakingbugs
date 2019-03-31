@@ -7,6 +7,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var MasterFunctions = require('../dependencies/masterfunctions');
+var fs = require('fs');
+const https = require('https');
+const request = require('request');
+const gcs = require('@google-cloud/storage');
 class model_project {
     constructor(connection) {
         this.testFunctions = (req, res, next) => __awaiter(this, void 0, void 0, function* () {
@@ -19,10 +23,7 @@ class model_project {
         });
         this.getUrl = (req, res, next, url) => __awaiter(this, void 0, void 0, function* () {
             return new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {
-                console.log(url);
-                var data = {};
-                data = MasterFunctions.formatResponse(url, "true", "Got url");
-                resolve(data);
+                resolve({ data: "joel", status: "true", message: "got url" });
             }));
         });
         this.connection = connection;
